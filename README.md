@@ -17,6 +17,14 @@ Experiment Notebooks: (8_X to 11_X)
 Recipe1M Raw and Processed Datasets: Contains layer1.json and processed versions (NOT STORED HERE CURRENTLY BUT CAN BE ACCESED VIA THIS - [LINK](https://drive.google.com/drive/folders/1SmoTRuAnTTXNf5dSNBXfRMk0dRc7mOnn))
 
 ## Running the Notebooks
+### Prerequisites
+Platform Setup: Google Colab or any Python environment with necessary packages.
+
+Storage Check: Minimum 6.5 GB of storage is required for data and outputs.
+
+Package Installation: Install the necessary packages as listed in requirements.txt using command pip install -r requirements.txt
+or run the following command in the notebook before running the cells : !pip install pandas nltk numpy scikit-learn networkx gensim jellyfish transformers torch torch-geometric node2
+
 ### Data Pre-Processing: Run notebooks in the following order:
 1_Recipe1M_PreProcess.ipynb
 
