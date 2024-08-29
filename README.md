@@ -24,7 +24,9 @@ _Storage Check_: Minimum 6.5 GB of storage is required for data and outputs.
 
 _Package Installation_: 
 Install the necessary packages as listed in requirements.txt using command pip install -r requirements.txt
+
 or 
+
 run the following command in the notebook before running the cells : !pip install pandas nltk numpy scikit-learn networkx gensim jellyfish transformers torch torch-geometric node2
 
 ### Data Pre-Processing: Run notebooks in the following order:
