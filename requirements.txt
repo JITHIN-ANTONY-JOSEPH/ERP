@@ -1,0 +1,11 @@
+pandas
+nltk
+numpy
+scikit-learn
+networkx
+gensim
+jellyfish
+transformers
+torch
+torch-geometric
+node2vec
