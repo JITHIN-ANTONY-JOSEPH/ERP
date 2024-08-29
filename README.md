@@ -18,12 +18,14 @@ Recipe1M Raw and Processed Datasets: Contains layer1.json and processed versions
 
 ## Running the Notebooks
 ### Prerequisites
-Platform Setup: Google Colab or any Python environment with necessary packages.
+_Platform Setup_: Google Colab or any Python environment with necessary packages.
 
-Storage Check: Minimum 6.5 GB of storage is required for data and outputs.
+_Storage Check_: Minimum 6.5 GB of storage is required for data and outputs.
 
-Package Installation: Install the necessary packages as listed in requirements.txt using command pip install -r requirements.txt
-or run the following command in the notebook before running the cells : !pip install pandas nltk numpy scikit-learn networkx gensim jellyfish transformers torch torch-geometric node2
+_Package Installation_: 
+Install the necessary packages as listed in requirements.txt using command pip install -r requirements.txt
+or 
+run the following command in the notebook before running the cells : !pip install pandas nltk numpy scikit-learn networkx gensim jellyfish transformers torch torch-geometric node2
 
 ### Data Pre-Processing: Run notebooks in the following order:
 1_Recipe1M_PreProcess.ipynb
@@ -32,16 +34,14 @@ or run the following command in the notebook before running the cells : !pip ins
 
 3_Validation_Set_Recipe1mSubstitution.ipynb
 
-
-
 ### Baseline Models and Experiments
 Baselines and Experiments: Once pre-processing is done, baselines and experiments can be run independently. Notebooks are self-contained and can be executed sequentially.
 ### Baselines:
-Statistical Baselines: 4_Statistical_Baselines.ipynb
+_Statistical Baselines_: 4_Statistical_Baselines.ipynb
 
-Text-Based Baselines: 5_Text_Based_FOOD2VEC_Ingredients_Baseline.ipynb, 5_Text_Based_BERT_Ingredients_Baseline.ipynb
+_Text-Based Baselines_: 5_Text_Based_FOOD2VEC_Ingredients_Baseline.ipynb, 5_Text_Based_BERT_Ingredients_Baseline.ipynb
 
-Knowledge Graph-Based Baselines: 7_Graph_Based_Node2Vec_Baseline.ipynb, 7_Graph_Based_GCN_Baseline.ipynb
+_Knowledge Graph-Based Baselines_: 7_Graph_Based_Node2Vec_Baseline.ipynb, 7_Graph_Based_GCN_Baseline.ipynb
 
 ### Experiments:
 Experiments are numbered from 8_Experiment1.ipynb to 11_RECIPE_SPECIFIC.ipynb and explore various model combinations and improvements.
