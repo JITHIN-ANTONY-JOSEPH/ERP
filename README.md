@@ -35,5 +35,5 @@ Text-Based Baselines: 5_Text_Based_FOOD2VEC_Ingredients_Baseline.ipynb, 5_Text_B
 
 Knowledge Graph-Based Baselines: 7_Graph_Based_Node2Vec_Baseline.ipynb, 7_Graph_Based_GCN_Baseline.ipynb
 
-Experiments:
+### Experiments:
 Experiments are numbered from 8_Experiment1.ipynb to 11_RECIPE_SPECIFIC.ipynb and explore various model combinations and improvements.
