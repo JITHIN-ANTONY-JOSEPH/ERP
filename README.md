@@ -15,3 +15,25 @@ Graph Creation Notebook: (6_X)
 Experiment Notebooks: (8_X to 11_X)
 
 Recipe1M Raw and Processed Datasets: Contains layer1.json and processed versions (NOT STORED HERE CURRENTLY BUT CAN BE ACCESED VIA THIS - [LINK](https://drive.google.com/drive/folders/1SmoTRuAnTTXNf5dSNBXfRMk0dRc7mOnn))
+
+## Running the Notebooks
+### Data Pre-Processing: Run notebooks in the following order:
+1_Recipe1M_PreProcess.ipynb
+
+2_Recipe1M_Ingredient_Match.ipynb
+
+3_Validation_Set_Recipe1mSubstitution.ipynb
+
+
+
+### Baseline Models and Experiments
+Baselines and Experiments: Once pre-processing is done, baselines and experiments can be run independently. Notebooks are self-contained and can be executed sequentially.
+### Baselines:
+Statistical Baselines: 4_Statistical_Baselines.ipynb
+
+Text-Based Baselines: 5_Text_Based_FOOD2VEC_Ingredients_Baseline.ipynb, 5_Text_Based_BERT_Ingredients_Baseline.ipynb
+
+Knowledge Graph-Based Baselines: 7_Graph_Based_Node2Vec_Baseline.ipynb, 7_Graph_Based_GCN_Baseline.ipynb
+
+Experiments:
+Experiments are numbered from 8_Experiment1.ipynb to 11_RECIPE_SPECIFIC.ipynb and explore various model combinations and improvements.
