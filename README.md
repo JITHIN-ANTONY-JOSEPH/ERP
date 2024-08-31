@@ -4,17 +4,23 @@ This repository contains the code and additional materials for the MSc Data Scie
 ## Introduction
 The project addresses ingredient substitution in recipes by integrating both text-based and graph-based approaches to generate substitutes. The goal is to improve model scalability and accuracy in ingredient substitution using a unique combination of NLP and knowledge graph techniques.
 ## Repository Structure
-* _Datasets_: Contains datasets like nodes_191120.csv and edges_191120.csv.
 
-* _Pre-Processing Notebooks_: (1_X to 3_X)
+| ERP        |                                       |                   |
+|------------|--------------------------------------|-------------------|
+|            | Pre-Processing Notebooks (1_X to 3_X) |                   |
+|            | Baseline Notebooks (4_X, 5_X, and 7_X) |                   |
+|            | Graph Creation Notebook (6_X)         |                   |
+|            | Experiment Notebooks (8_X to 11_X)    |                   |
+|            | Recipe1M Raw and Processed Datasets   |                   |
+|            | Validation Dataset                    |                   |
+|            | Dataset                               | nodes_191120.csv  |
+|            |                                      | edges_191120.csv  |
 
-* _Baseline Notebooks_: (4_X, 5_X, and 7_X)
+- _Recipe1M Raw and Processed Datasets_: NOT STORED ON GITHUB CURRENTLY DUE TO SIZE RESTRICTIONS BUT CAN BE ACCESED VIA THIS - [LINK](https://drive.google.com/drive/folders/1SmoTRuAnTTXNf5dSNBXfRMk0dRc7mOnn))
 
-* _Graph Creation Notebook_: (6_X)
-
-* _Experiment Notebooks_: (8_X to 11_X)
-
-* _Recipe1M Raw and Processed Datasets_: Contains layer1.json and processed versions (NOT STORED HERE CURRENTLY BUT CAN BE ACCESED VIA THIS - [LINK](https://drive.google.com/drive/folders/1SmoTRuAnTTXNf5dSNBXfRMk0dRc7mOnn))
+  - 
+  - 
+  - 
 
 ## Running the Notebooks
 ## Prerequisites
