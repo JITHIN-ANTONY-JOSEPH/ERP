@@ -18,7 +18,7 @@ The project addresses ingredient substitution in recipes by integrating both tex
 
 ## Running the Notebooks
 ## Prerequisites
-* _Platform Setup_: Google Colab or any Python environment with necessary packages.
+* _Platform Setup_: The project was fully developed on Google Colab Pro, utilizing cloud-based computational resources. All experiments were conducted using Python 3 with a CPU runtime, except for the notebooks involving BERT, where a T4 GPU was employed. In both scenarios, the High RAM setting was enabled, providing access to up to 51GB of RAM.
 
 * _Storage Check_: Minimum 6.5 GB of storage is required for data and outputs.
 
