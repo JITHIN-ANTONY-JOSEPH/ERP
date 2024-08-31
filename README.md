@@ -16,11 +16,11 @@ The project addresses ingredient substitution in recipes by integrating both tex
 |            | Dataset                               | nodes_191120.csv  |
 |            |                                      | edges_191120.csv  |
 
-- _Recipe1M Raw and Processed Datasets_: NOT STORED ON GITHUB CURRENTLY DUE TO SIZE RESTRICTIONS BUT CAN BE ACCESED VIA THIS - [LINK](https://drive.google.com/drive/folders/1SmoTRuAnTTXNf5dSNBXfRMk0dRc7mOnn))
-
-  - 
-  - 
-  - 
+- _Recipe1M Raw and Processed Datasets_: NOT STORED ON GITHUB CURRENTLY DUE TO SIZE RESTRICTIONS BUT CAN BE ACCESED VIA THIS - [LINK](https://drive.google.com/drive/folders/1SmoTRuAnTTXNf5dSNBXfRMk0dRc7mOnn)
+  
+  - Raw Recipe1M -> layer1.json
+  -   Pre_Processed Recipe1M -> Processed_Layer1.json output of `1_Recipe1M_PreProcess.ipynb`
+  -   Ingredient Mapped Recipe1M -> modified_Processed_Layer1.json output of `2_Recipe1M_Ingredient_Match.ipynb`
 
 ## Running the Notebooks
 ## Prerequisites
@@ -29,8 +29,10 @@ The project addresses ingredient substitution in recipes by integrating both tex
 * _Storage Check_: Minimum 6.5 GB of storage is required for data and outputs.
 
 * _Package Installation_: 
-Install the necessary packages as listed in requirements.txt using command pip install -r requirements.txt
-
+Install the necessary packages as listed in requirements.txt using command 
+```bash
+pip install -r requirements.txt
+```
   or 
 
   run the following command in the notebook before running the cells :
